@@ -185,6 +185,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Itstructure\LaRbac\RbacServiceProvider::class,
 
         /*
          * Application Service Providers...
