@@ -1,0 +1,23 @@
+{
+    "name": "appa8/user",
+    "description": "",
+    "authors": [
+        {
+            "name": "Ricardo Grangeia",
+            "email": "ricardograngeia@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Modules\\User\\": ""
+        }
+    }
+}
