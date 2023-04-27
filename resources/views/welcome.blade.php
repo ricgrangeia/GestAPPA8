@@ -5,16 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Laravel</title>
-
+    <script src="{{ asset('/js/app.js') }}"></script>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet"/>
 
     <!-- Styles -->
 
-    <link rel="stylesheet" href="{{asset('css/nicepage.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/appa8.css') }}">
-    <script src="{{ asset('js/app.js') }}" defer></script>
+
     <style>
         /* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */
         *, ::after, ::before {
@@ -806,7 +804,7 @@
     <div class="max-w-7xl mx-auto p-6 lg:p-8">
         <div class="flex justify-center">
             <h1 class="u-text u-text-default u-text-1">
-                <span class="u-text-grey-40">appa</span>
+                <span class="display-1">appa</span>
                 <span class="u-text-palette-1-base">8</span>
             </h1>
         </div>
