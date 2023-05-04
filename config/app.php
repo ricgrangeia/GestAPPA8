@@ -185,16 +185,24 @@ return [
         /*
          * Package Service Providers...
          */
+        Itstructure\LaRbac\RbacServiceProvider::class,
 
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        App\Main\App\Providers\AppServiceProvider::class,
+        App\Main\App\Providers\AuthServiceProvider::class,
+        // App\Main\App\Providers\BroadcastServiceProvider::class,
+        App\Main\App\Providers\EventServiceProvider::class,
+        App\Main\App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Modules Application Service Providers...
+         */
+
+		App\Main\App\Providers\MainServiceProvider::class,
+        App\User\App\Providers\UserServiceProvider::class,
+        App\Inventory\App\Providers\InventoryServiceProvider::class,
     ],
 
     /*

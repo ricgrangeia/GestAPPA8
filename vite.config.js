@@ -1,6 +1,8 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 
+const host = 'gest.appa8.com';
+
 export default defineConfig({
     plugins: [
         laravel({
